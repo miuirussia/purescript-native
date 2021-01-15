@@ -1,0 +1,62 @@
+{
+    "haskell.nix": {
+        "branch": "master",
+        "description": "Alternative Haskell Infrastructure for Nixpkgs",
+        "homepage": "https://input-output-hk.github.io/haskell.nix",
+        "owner": "input-output-hk",
+        "repo": "haskell.nix",
+        "rev": "17e2b7c69f0eaa732f2f63cfe53a0da512798c8f",
+        "sha256": "0cljfdk4wvv10yj7lhm6d383cgg18x3w5xcjm4nmwl2aca9ciksp",
+        "type": "tarball",
+        "url": "https://github.com/input-output-hk/haskell.nix/archive/17e2b7c69f0eaa732f2f63cfe53a0da512798c8f.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "3cd7914b2c4cff48927e11c216dadfab7d903fe5",
+        "sha256": "1agq4nvbhrylf2s77kb4xhh9k7xcwdwggq764k4jgsbs70py8cw3",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/3cd7914b2c4cff48927e11c216dadfab7d903fe5.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "nixpkgs-unstable",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "495066a47fc259aa4fc5f7548e190fded2c7030e",
+        "sha256": "0q448yk73r5acbc8q3nw9hgwvi6y43cwxy8k6kgq7a5zk630rdx5",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/495066a47fc259aa4fc5f7548e190fded2c7030e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "purescript": {
+        "branch": "9cad73ed8ea7df3011032ddbd2f3de5a0c08629c",
+        "description": "A strongly-typed language that compiles to JavaScript",
+        "homepage": "https://www.purescript.org",
+        "owner": "purescript",
+        "repo": "purescript",
+        "rev": "9cad73ed8ea7df3011032ddbd2f3de5a0c08629c",
+        "sha256": "0mlgww6j8nfdgy6x7l6z5in37r6qs11wnxf1cpgqaiyabadaik20",
+        "type": "tarball",
+        "url": "https://github.com/purescript/purescript/archive/9cad73ed8ea7df3011032ddbd2f3de5a0c08629c.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "purescript-native": {
+        "branch": "golang",
+        "description": "A native compiler backend for PureScript (via C++ or Golang)",
+        "homepage": "http://purescript.org",
+        "owner": "andyarvanitis",
+        "repo": "purescript-native",
+        "rev": "1410c211aea993c63827f2f0ebd1b39bbde55c6f",
+        "sha256": "0al0sb371xsv09dhzcvzszx1kfy2sgm9d7lxhi25y51k3c102y2i",
+        "type": "tarball",
+        "url": "https://github.com/andyarvanitis/purescript-native/archive/1410c211aea993c63827f2f0ebd1b39bbde55c6f.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
