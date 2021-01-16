@@ -41,11 +41,9 @@ let
     }
   );
 in
-pkgs.symlinkJoin {
-  name = "purescript-native";
-  paths = with pkgs; [
+pkgs.mkShell {
+  buildInputs = with pkgs; [
     go
     pkgsSet.psgo.components.exes.psgo
   ];
-
 }
